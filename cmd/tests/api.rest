@@ -1,0 +1,71 @@
+GET http://localhost:8080/operations
+Authorization: 88916179-1692-418b-871b-38d97c90b12a
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.contentType.mimeType === "application/json", "Expected 'application/json' but received '" + response.contentType.mimeType + "'");
+});
+%}
+
+###
+
+GET http://localhost:8080/operations
+Authorization: 88916179-1692-418b-871b-38d97c90b12a
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.contentType.mimeType === "application/json", "Expected 'application/json' but received '" + response.contentType.mimeType + "'");
+});
+%}
+
+###
+
+GET http://localhost:8080/operations
+Authorization: 88916179-1692-418b-871b-38d97c90b12h
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.contentType.mimeType === "application/json", "Expected 'application/json' but received '" + response.contentType.mimeType + "'");
+});
+%}
+
+###
+
+GET http://localhost:8080/operations
+Authorization: 88916179-1692-418b-871b-38d97c90b12h
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.contentType.mimeType === "application/json", "Expected 'application/json' but received '" + response.contentType.mimeType + "'");
+});
+%}
+
+###
+
+GET http://localhost:8080/operations
+Authorization: 88916179-1692-418b-871b-38d97c90b12a
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.contentType.mimeType === "application/json", "Expected 'application/json' but received '" + response.contentType.mimeType + "'");
+});
+%}
+
+###
+
+GET http://localhost:8080/operations
+Authorization: 88916179-1692-418b-871b-38d97c90b12h
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.contentType.mimeType === "application/json", "Expected 'application/json' but received '" + response.contentType.mimeType + "'");
+});
+%}
+
+###
